@@ -68,7 +68,7 @@ h2 {
     }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 767px) {
     .section{
         width: 95%;
         margin: 2.5% 2.5% 0 2.5%;
