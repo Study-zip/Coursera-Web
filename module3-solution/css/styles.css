@@ -1,0 +1,80 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+/* Header */
+#header-nav, .navbar-default .navbar-default {
+    background-color: bisque;
+}
+
+#header-nav, .navbar-default{
+    border: none;
+}
+
+.container {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 10px 30px;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+h1{
+    color: #e25c2f;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #9c4021;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #9c4021;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: antiquewhite;
+}
+
+.navbar-toggle {
+    margin-right: 30px;
+}
+
+#collapsable-nav {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a {
+    color:#e25c2f;
+    background-color: bisque;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: rgb(255, 247, 236) !important;
+}
+
+/*main content*/
+
+#main-content .row {
+    margin: 50px 0;
+}
+
+#main-content div h3{
+    padding: 10px;
+    background-color: bisque;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#main-content div p{
+    padding: 20px;
+    background-color: bisque;
+}
